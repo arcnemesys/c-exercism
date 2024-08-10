@@ -1,6 +1,5 @@
 #include "hamming.h"
 #include <string.h>
-#include <stdio.h>
 int compute(const char *lhs, const char *rhs) {
     int count = 0;
     size_t rhsl = strlen(rhs) + 1;
